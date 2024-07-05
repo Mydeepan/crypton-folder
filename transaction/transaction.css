@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #33333393;
+   font-family: sans-serif;
+   border-radius: 5px;
+}
+main{
+    width:80%;
+    padding: 20px;
+    background-color:rgba(245, 245, 245, 0.89);
+    display: flex;
+    flex-flow: column nowrap;
+}
+.head{
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.head >h2{
+    font-size: 2rem;
+}
+.head p{
+    font-size: 1.5rem;
+    color: #aaa;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+.subBox{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+.subBox i{
+    font-size: 2rem;
+    background-color: rgba(21, 145, 253, 0.822);
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.subBox .name >p{
+    color: #aaa;
+}
+.subBox2 p{
+    margin-top: 10px;
+    color: rgb(194, 148, 33);
+}
+.subBox2 .res{
+    color: black;
+}
+.subBox2 >.mins {
+    color: rgb(253, 61, 27);
+}
+
+@media screen and (max-width:772px) {
+    .box{
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:772px) {
+    .box{
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        font-size: 1.3rem;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:556px) {
+    .subBox .name >p{
+        color: #aaa;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:415px) {
+    .box{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+    .subBox2 {
+       text-align: end;
+    }
+}
