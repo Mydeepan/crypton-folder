@@ -30,7 +30,6 @@ main{
 table{
     border-collapse: collapse;
     width: 100%;
-    
 }
 table th,td{
     border:2px solid transparent;
@@ -66,4 +65,17 @@ table td>div i{
 }
 table td>span{
     color: #aaa;
+}
+@media screen and (max-width:1201px){
+   
+    thead th{
+        font-size: 1rem;
+    }
+    tbody td{
+        font-size: 1.2rem;
+        height: 50px;
+    }
+    .table-div{
+        overflow-x: hidden;
+    }
 }

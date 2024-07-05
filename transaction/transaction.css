@@ -94,6 +94,14 @@ main{
     }
 }
 @media screen and (max-width:415px) {
+    .head>h2 {
+            font-size: 1.5rem;
+        }
+    
+        .head p {
+            font-size: 1rem;
+            color: #aaa;
+        }
     .box{
         display: flex;
         flex-direction: column;

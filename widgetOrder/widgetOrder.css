@@ -31,6 +31,7 @@ main{
     background-color: #fff;
     padding: 10px 20px;
     border-radius: 7px;
+    margin-top: 10px;
 }
 .revenue > div{
     display: flex;

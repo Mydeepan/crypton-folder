@@ -14,6 +14,12 @@ main{
     margin-top: 20px;
     
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .i-tag{
     display: flex;
     gap: 20px;
@@ -22,7 +28,7 @@ main{
 .text{
     background-color: rgba(59, 59, 224, 0.774);
     color: white;
-    padding: 5px 10px;
+    padding: 5px;
     font-size: 18px;
     border-radius: 10px;
     width: fit-content;
@@ -42,31 +48,37 @@ main{
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content:center;
     gap: 10px;
     margin-top: 20px;
     margin-left:100px;
     margin-bottom: 20px;
 }
-.img{
-    width: 600px;
-    height: 600px;
+.box1{
     display: flex;
-    margin-left: 25%;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+}
+.img{
+    width: 400px;
+    height: 400px;
     background-color: rgb(81, 226, 178);
+    background: radial-gradient(rgba(81, 226, 178, 0.737),rgba(22, 94, 226, 0.97));
     margin-bottom: 20px;
 }
-img{
-    width: 100%;
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
 }
 .btn1,.btn2{
+    width: 200px;
     padding: 10px 20px;
     background-color: black;
     color: white;
     border-radius: 6px;
+    cursor: pointer;
 }
 .btn1{
     background-color: transparent;
@@ -78,13 +90,6 @@ img{
         margin-top: 20px;
     }
     .text-tag h2{
-      
-        text-align: start;
-    }
-    .para-tag{
-        font-size: 1rem;
-        margin-top: 15px;
-        margin-left: 20px;
         text-align: start;
     }
     .img{
@@ -93,14 +98,7 @@ img{
        margin-left: 10px;
     }
     .icon-tag{
-        font-size: 1rem;
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        gap: 10px;
-        margin-top: 20px;
         margin-left:10px;
-        margin-bottom: 20px;
     }
     .btn1,.btn2{
         width: calc(100% -100px);
@@ -117,7 +115,7 @@ img{
         text-align: start;
     }
     .para-tag{
-        font-size: 1rem;
+        font-size: 1.3rem;
         margin-top: 15px;
         margin-left: 20px;
         text-align: start;
@@ -127,15 +125,9 @@ img{
         height: 300px;
        margin-left: 20px;
     }
-    .icon-tag{
-        font-size: 1rem;
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        gap: 10px;
-        margin-top: 20px;
-        margin-left:10px;
-        margin-bottom: 20px;
+    
+    .btn{
+        display: block;
     }
     .btn1,.btn2{
         width: 100%;
